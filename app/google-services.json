@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "242279722425",
+    "firebase_url": "https://psl-live-scores-schedule.firebaseio.com",
+    "project_id": "psl-live-scores-schedule",
+    "storage_bucket": "psl-live-scores-schedule.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:242279722425:android:1ec5ef5a5bea7e5d5cda68",
+        "android_client_info": {
+          "package_name": "com.sasteyguru.psllivescoresschedule"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "242279722425-8te1bnt671lhvnma4j050qquormh9u3g.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.psllivescoresschedule",
+            "certificate_hash": "ff0dc7dca7b7e7df86fd4339249a8a3bf1179acd"
+          }
+        },
+        {
+          "client_id": "242279722425-ccsum7nkivts60tg3ljag86ksmd1al27.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBtR1OdC-0Ywzc-smbOFFi6MQgiWcgmVd0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "242279722425-ccsum7nkivts60tg3ljag86ksmd1al27.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_home"
+
+        android:title="Home"
+        android:icon="@drawable/ic_home_black_24dp"/>
+<item
+    android:id="@+id/teams"
+    android:title="Teams"
+    android:icon="@drawable/ic_cricket_player"></item>
+    <item
+        android:id="@+id/stadiums"
+        android:title="Venues"
+        android:icon="@drawable/ic_stadium"></item>
+
+    <item
+        android:id="@+id/score"
+        android:title="Live score"
+        android:icon="@drawable/ic_scoreboard"></item>
+    <item
+        android:id="@+id/more"
+        android:title="More"
+        android:icon="@drawable/ic_more_vert_black_24dp"></item>
+
+</menu>

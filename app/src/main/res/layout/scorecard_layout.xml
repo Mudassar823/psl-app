@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:scaleType="centerCrop"
+         android:layout_marginTop="1dp"
+            android:id="@+id/in11"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+          ></ImageView>
+        <ImageView
+android:scaleType="centerCrop"
+            android:id="@+id/in12"
+            android:layout_marginTop="1dp"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"></ImageView>
+
+        <ImageView
+            android:scaleType="centerCrop"
+            android:layout_marginTop="1dp"
+            android:id="@+id/in21"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+           ></ImageView>
+
+        <ImageView
+            android:scaleType="centerCrop"
+            android:layout_marginTop="1dp"
+            android:id="@+id/in22"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+
+      ></ImageView>
+
+
+
+    </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

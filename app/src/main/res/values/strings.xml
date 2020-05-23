@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">PSL 2k20 Live Scores and Schedule </string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="id_for_interstitial">ca-app-pub-7844042237632274/9370050721</string>
+    <string name="id_for_banner">ca-app-pub-7844042237632274/5622377406</string>
+
+
+
+</resources>

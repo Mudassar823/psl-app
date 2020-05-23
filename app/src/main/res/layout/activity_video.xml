@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".videoActivity">
+<com.google.android.youtube.player.YouTubePlayerView
+    android:layout_width="match_parent"
+    android:id="@+id/player"
+    android:layout_height="300dp"></com.google.android.youtube.player.YouTubePlayerView>
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/player"
+    android:text="Related Videos"
+    android:gravity="center"
+    android:textColor="@color/colorPrimary"
+    android:textSize="16sp"
+    android:textStyle="bold"
+    android:layout_margin="5dp"
+    android:fontFamily="@font/abril_fatface"
+    android:id="@+id/rela"></TextView>
+<androidx.recyclerview.widget.RecyclerView
+    android:layout_width="match_parent"
+    android:layout_below="@+id/rela"
+    android:layout_height="match_parent"
+    android:id="@+id/relatedVideos"></androidx.recyclerview.widget.RecyclerView>
+
+</RelativeLayout>

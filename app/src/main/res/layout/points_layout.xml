@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/yellow"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:id="@+id/relativeLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dp"
+        android:background="@android:color/background_light">
+
+        <TextView
+            android:id="@+id/pos"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="start"
+            android:padding="5dp"
+            android:text="pos"
+            android:textColor="@color/colorPrimary" />
+
+        <TextView
+            android:id="@+id/team"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:padding="5dp"
+            android:text="quetta gladiators "
+            android:textColor="@color/colorPrimary" />
+        / >
+
+        <TextView
+            android:id="@+id/match"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="start"
+            android:padding="5dp"
+            android:text="1"
+            android:textColor="@color/colorPrimary" />
+        <TextView
+            android:id="@+id/won"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="start"
+            android:padding="5dp"
+            android:text="1"
+            android:textColor="@color/colorPrimary" />   <TextView
+        android:id="@+id/lost"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="start"
+        android:padding="5dp"
+        android:text="1"
+        android:textColor="@color/colorPrimary" />   <TextView
+        android:id="@+id/point"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="start"
+        android:padding="5dp"
+        android:text="90"
+        android:textColor="@color/colorPrimary" />
+    </LinearLayout>
+</LinearLayout>
